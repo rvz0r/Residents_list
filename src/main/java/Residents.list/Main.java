@@ -19,7 +19,7 @@ public class Main {
     System.out.print(nameOfCity + " " + name_sname + " " + PESEL);
     PESEL_validation Pval = new PESEL_validation();
     boolean PeselCorrect = Pval.validator(PESEL);
-    if (PeselCorrect==true) {
+    if (PeselCorrect) {
       System.out.print("\nYour PESEL is correct");
     }
     else {
@@ -27,7 +27,5 @@ public class Main {
     }
     scan.close();
     scan1.close();
-
-    //TODO();
   }
 }
