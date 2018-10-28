@@ -24,10 +24,9 @@ class PESEL_validation {
     x = x/10;
     long a = x%10;//11
 */
-    long[] num;
-    num = new long[11];
-    for (int i1 = 0;i1<11;i1++){
-      num[i1] = x%10;
+    long[] num = new long[11];
+    for (int i = 0;i<11;i++){
+      num[i] = x%10;
       x = x/10;
     }
 
